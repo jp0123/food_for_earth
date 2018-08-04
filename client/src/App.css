@@ -32,6 +32,7 @@
 }
 
 /** GENERAL **/
+
 .justify-container {
   display: flex;
   justify-content: center;
@@ -54,10 +55,21 @@
 }
 
 .button-style-one {
+  width: 50%;
+}
+.button-style-two {
   width: 100%;
 }
 
-/** LANDING **/
+.button-container {
+  text-align: center;
+}
+
+.upper-space {
+  margin-top: 5rem;
+}
+
+/** HERO **/
 .hero {
   height: 100vh;
   width: 100vw;

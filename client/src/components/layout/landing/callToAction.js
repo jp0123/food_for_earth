@@ -24,7 +24,9 @@ const CallToAction = () => {
           <h4 className="text-style-1">{title_user_1}</h4>
           <p className="text-style-2">{content_user_1}</p>
           <Link to="/make-fertilizer">
-            <Button className="button-style-one">Details</Button>
+            <div className="button-container">
+              <Button className="button-style-one">Details</Button>
+            </div>
           </Link>
         </Col>
         <Col sm="12" md="6">
@@ -38,7 +40,9 @@ const CallToAction = () => {
           <h4 className="text-style-1">{title_user_2}</h4>
           <p className="text-style-2">{content_user_2}</p>
           <Link to="/get-fertilizer">
-            <Button className="button-style-one">Details</Button>
+            <div className="button-container">
+              <Button className="button-style-one">Details</Button>
+            </div>
           </Link>
         </Col>
       </Row>
