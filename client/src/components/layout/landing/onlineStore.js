@@ -27,7 +27,7 @@ const OnlineStore = () => {
           <div class="images-container">
             <img
               className="img-fluid info-images"
-              src="http://via.placeholder.com/300x300"
+              src="/images/store.jpg"
               alt="Online store"
             />
           </div>

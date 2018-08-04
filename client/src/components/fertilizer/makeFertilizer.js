@@ -41,7 +41,7 @@ const MakeFertilizer = () => {
           <div class="images-container">
             <img
               className="img-fluid info-images"
-              src="http://via.placeholder.com/300x300"
+              src="/images/organic-waste-1.jpg"
               alt="Fertilizer"
             />
           </div>
@@ -57,7 +57,7 @@ const MakeFertilizer = () => {
               <div className="images-container">
                 <img
                   className="img-fluid"
-                  src="http://via.placeholder.com/200x200"
+                  src="/images/step-1.jpg"
                   alt="Step One"
                 />
               </div>
@@ -68,7 +68,7 @@ const MakeFertilizer = () => {
               <div className="images-container">
                 <img
                   className="img-fluid"
-                  src="http://via.placeholder.com/200x200"
+                  src="/images/step-2.jpg"
                   alt="Step Two"
                 />
               </div>
@@ -79,7 +79,7 @@ const MakeFertilizer = () => {
               <div className="images-container">
                 <img
                   className="img-fluid"
-                  src="http://via.placeholder.com/200x200"
+                  src="/images/step-3.jpg"
                   alt="Step Three"
                 />
               </div>

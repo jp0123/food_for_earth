@@ -30,7 +30,7 @@ const GetFertilizer = () => {
           <div class="images-container">
             <img
               className="img-fluid info-images"
-              src="http://via.placeholder.com/300x300"
+              src="/images/fertilizer-1.jpg"
               alt="Fertilizer"
             />
           </div>

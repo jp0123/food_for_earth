@@ -17,7 +17,7 @@ const CallToAction = () => {
           <div className="images-container">
             <img
               className="img-fluid"
-              src="http://via.placeholder.com/300x300"
+              src="/images/organic-waste-1.jpg"
               alt="Fertilizer producer"
             />
           </div>
@@ -33,7 +33,7 @@ const CallToAction = () => {
           <div className="images-container">
             <img
               className="img-fluid"
-              src="http://via.placeholder.com/300x300"
+              src="/images/fertilizer-1.jpg"
               alt="Fertilizer user"
             />
           </div>
