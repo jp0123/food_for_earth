@@ -8,6 +8,7 @@ import About from "./components/layout/about";
 import Login from "./components/auth/login";
 import Register from "./components/auth/register";
 import Fertilizer from "./components/fertilizer/fertilizer";
+import MakeFertilizer from "./components/fertilizer/makeFertilizer";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/fertilizer" component={Fertilizer} />
+          <Route exact path="/make-fertilizer" component={MakeFertilizer} />
           <Footer />
         </div>
       </Router>

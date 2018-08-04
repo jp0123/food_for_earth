@@ -35,9 +35,20 @@ class NavBar extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/fertilizer">Fertilizer</NavLink>
-              </NavItem>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Fertilizer
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem>
+                    <NavLink href="/make-fertilizer">Make Fertilizer</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/fertilizer">Get Fertilizer</NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Account

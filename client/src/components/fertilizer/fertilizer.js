@@ -1,10 +1,10 @@
 import React from "react";
-import FertilizerContent from "./fertilizer-content";
+import GetFertilizer from "./getFertilizer";
 
 const Fertilizer = () => {
   return (
     <div>
-      <FertilizerContent />
+      <GetFertilizer />
     </div>
   );
 };

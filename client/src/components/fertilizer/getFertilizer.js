@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Row, Col, Container } from "reactstrap";
 import { Link } from "react-router-dom";
 
-const FertilizerContent = () => {
+const GetFertilizer = () => {
   const title = "Organic Fertilizer For All";
   const content_1 =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, explicabo tempore quo reiciendis facere recusandae sint veniam itaque a culpa rem, architecto esse delectus, blanditiis quia nemo vero nostrum molestiae.";
@@ -40,4 +40,4 @@ const FertilizerContent = () => {
   );
 };
 
-export default FertilizerContent;
+export default GetFertilizer;
