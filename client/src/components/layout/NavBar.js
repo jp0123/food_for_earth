@@ -31,22 +31,35 @@ class NavBar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">FFE</NavbarBrand>
+          <NavbarBrand href="/">Food For Earth</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">Components</NavLink>
-              </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  Fertilizer
+                </DropdownToggle>
+                <DropdownMenu>
+                  <DropdownItem>
+                    <NavLink href="/make-fertilizer">Make Fertilizer</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/fertilizer">Get Fertilizer</NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
+
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Account
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>Option 1</DropdownItem>
-                  <DropdownItem>Option 2</DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>Reset</DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/register">Register</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href="/login">Login</NavLink>
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
             </Nav>

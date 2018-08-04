@@ -31,7 +31,46 @@
   }
 }
 
-/** LANDING **/
+/** GENERAL **/
+
+.justify-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.text-style-1 {
+  text-align: center;
+}
+
+.text-style-2 {
+  text-align: justify;
+}
+
+.button-style-one {
+  width: 50%;
+}
+.button-style-two {
+  width: 100%;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.upper-space {
+  margin-top: 4rem;
+}
+
+/** HERO **/
 .hero {
   height: 100vh;
   width: 100vw;
@@ -42,4 +81,31 @@
   background-repeat: no-repeat;
   background-position: center center;
   margin: 0;
+}
+
+/** CONTENT **/
+.content-container {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.content-header {
+  font-size: 3rem;
+}
+
+.content-body {
+  font-size: 2.5rem;
+}
+
+/** MAP **/
+#map {
+  background-color: lightpink;
+  width: 100vw;
+  height: 50vh;
 }
