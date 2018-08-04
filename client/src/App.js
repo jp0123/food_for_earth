@@ -7,6 +7,7 @@ import Landing from "./components/layout/landing";
 import About from "./components/layout/about";
 import Login from "./components/auth/login";
 import Register from "./components/auth/register";
+import Fertilizer from "./components/fertilizer/fertilizer";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/register" component={Register} />
+          <Route exact path="/fertilizer" component={Fertilizer} />
           <Footer />
         </div>
       </Router>
