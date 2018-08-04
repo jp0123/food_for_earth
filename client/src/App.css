@@ -31,6 +31,32 @@
   }
 }
 
+/** GENERAL **/
+.justify-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.text-style-1 {
+  text-align: center;
+}
+
+.text-style-2 {
+  text-align: justify;
+}
+
+.button-style-one {
+  width: 100%;
+}
+
 /** LANDING **/
 .hero {
   height: 100vh;
