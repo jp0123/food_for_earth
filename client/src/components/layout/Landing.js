@@ -1,12 +1,10 @@
 import React from "react";
-import { Container } from "reactstrap";
+import Hero from "./landing/hero";
 
 export default () => {
   return (
-    <Container>
-      <div>
-        <h1> Landing </h1>
-      </div>
-    </Container>
+    <div>
+      <Hero />
+    </div>
   );
 };
