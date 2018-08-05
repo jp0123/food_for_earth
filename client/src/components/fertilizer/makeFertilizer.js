@@ -5,19 +5,19 @@ import { Link } from "react-router-dom";
 const MakeFertilizer = () => {
   const title_1 = "Organic Fertilizer For All";
   const content_1 =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, explicabo tempore quo reiciendis facere recusandae sint veniam itaque a culpa rem, architecto esse delectus, blanditiis quia nemo vero nostrum molestiae.";
+    "Does your household produce a lot of food waste? Why not compost it into fertiliser instead of letting it go to landfill?";
   const content_2 = "Get started by buying our smart compost bin!";
 
   const title_2 = "How it works";
   const stepOneTitle = "Step 1: Get Smart Bin";
   const stepOneBody =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui optio praesentium eaque error. Hic, tempora adipisci debitis enim quia quibusdam harum facilis exercitationem, laudantium sunt eos, non sit illo?";
-  const stepTwoTitle = "Step 2: Build your fertilizer";
+    "Puchase our Smart Compost bin that allows you to dispose your organic waste in and generate fertilizer. It automatically sends a signal to us once it’s full.";
+  const stepTwoTitle = "Step 2: Create your fertilizer";
   const stepTwoBody =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui optio praesentium eaque error. Hic, tempora adipisci debitis enim quia quibusdam harum facilis exercitationem, laudantium sunt eos, non sit illo?";
+    "Expired food? Just chuck it into smart bin along with any other organic waste you have.";
   const stepThreeTitle = "Step 3: Give away your fertilizer";
   const stepThreeBody =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam qui optio praesentium eaque error. Hic, tempora adipisci debitis enim quia quibusdam harum facilis exercitationem, laudantium sunt eos, non sit illo?";
+    "Once it’s full, the red LED light on top of the bin will turn on. Just push onto the road for collection. Someone will come and empty it. Bin can then be used to compost more waste.";
 
   return (
     <Container className="upper-space">
