@@ -24,7 +24,7 @@ const OnlineStore = () => {
           </div>
         </Col>
         <Col sm="12" md="6">
-          <div class="images-container">
+          <div className="images-container">
             <img
               className="img-fluid info-images"
               src="/images/store.jpg"
