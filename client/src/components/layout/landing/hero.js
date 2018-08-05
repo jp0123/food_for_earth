@@ -14,10 +14,8 @@ const Hero = () => {
           <h1 className="display-3">{display}</h1>
           <p>{content_1}</p>
           <hr className="my-2" />
-          <Link to="/">
-            <Button size="lg" color="primary">
-              {call_to_action}
-            </Button>
+          <Link to="/fertilizer">
+            <Button color="primary">{call_to_action}</Button>
           </Link>
         </Container>
       </Jumbotron>
