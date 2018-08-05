@@ -26,7 +26,7 @@ const BinIndexItem = ({ bin }) => {
           <CardImg
             top
             width="100%"
-            src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180"
+            src="/images/fertilizer-2.jpg"
             alt="Smart Compost Bin"
           />
           <CardBody>

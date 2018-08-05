@@ -10,6 +10,7 @@ import Register from "./components/auth/register";
 import Fertilizer from "./components/fertilizer/fertilizer";
 import MakeFertilizer from "./components/fertilizer/makeFertilizer";
 import BinsIndex from "./components/bin/binIndex";
+import Store from "./components/store/store";
 
 class App extends Component {
   constructor(props) {
@@ -49,6 +50,7 @@ class App extends Component {
           <Route exact path="/register" component={Register} />
           <Route exact path="/fertilizer" component={Fertilizer} />
           <Route exact path="/make-fertilizer" component={MakeFertilizer} />
+          <Route exact path="/store" component={Store} />
           <Route
             exact
             path="/bins"
