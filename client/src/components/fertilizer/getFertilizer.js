@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const GetFertilizer = () => {
   const title = "Organic Fertilizer For All";
   const content_1 =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, explicabo tempore quo reiciendis facere recusandae sint veniam itaque a culpa rem, architecto esse delectus, blanditiis quia nemo vero nostrum molestiae.";
+    "You can get free fertilizer from your community members. Check the map below to see where you can collect fertiliser in your area. Reduce food waste! Save the environment!";
 
   const content_2 = "Want to buy some instead? Visit our store.";
 
